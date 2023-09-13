@@ -12,7 +12,7 @@ import (
 	Build demos and proof of concept
 	Modular Go Framework
 	Handling millions of web requests
-	No external dependnecies
+	No external dependencies
 	Uses net/http
 
 	Middlewares

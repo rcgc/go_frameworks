@@ -7,7 +7,7 @@ import (
 )
 
 /*
-	Contians middlewares
+	Contains middlewares
 	Service discovery
 	Logging
 	Monitoring
