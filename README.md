@@ -14,6 +14,8 @@ Framework selection will always depend on the project restrictions, business rul
 | Fiber      | Express.js style, fast & light | Built on top of FastHttp, implements the same way of working of Express but with golang. Perfect for MVPs and scalable systems                                   |
 | Gin        | Loads of features              | Stable features, scalable, production-level apps, ease of maintainance, larger than Echo and Fiber and not suitable for small projects                           |
 | Kratos     | Scalable microservices         | Suitable for large-production microservices, service discovery, monitoring, supports gRPC, HTTP and any other protocol, distributed systems, etc.                |
+<br>
+<br>
 
 ### FastHTTP vs net/http
 | FastHTTP                                                                                  | net/http                                                                                                             |
@@ -22,7 +24,6 @@ Framework selection will always depend on the project restrictions, business rul
 | Can reuse response                                                                        | Requires creating a new response object per each request                                                             |
 | Optimizes even little things like returnin a slice of bytes ([]byte) rather than a string | Doesn't support optimizations                                                                                        |
 
-<br>
 NOTE: conversion from byte to string isn't free and requires memory allocation and copy
 
 # References
