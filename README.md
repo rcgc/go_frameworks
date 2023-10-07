@@ -15,7 +15,6 @@ Framework selection will always depend on the project restrictions, business rul
 | Gin        | Loads of features              | Stable features, scalable, production-level apps, ease of maintainance, larger than Echo and Fiber and not suitable for small projects                           |
 | Kratos     | Scalable microservices         | Suitable for large-production microservices, service discovery, monitoring, supports gRPC, HTTP and any other protocol, distributed systems, etc.                |
 <br>
-<br>
 
 ### FastHTTP vs net/http
 | FastHTTP                                                                                  | net/http                                                                                                             |
